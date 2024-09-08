@@ -8,7 +8,7 @@ var password = 'password';
 var host = '91.223.223.132';
 var port = 21;
 var localFilesGlob = ['build/**']; // Уточнено шлях для всіх файлів у папці build
-var remoteFolder = '/home/vdymyrpp/test'; // <- Вказує папку для завантаження
+var remoteFolder = '/test/'; // <- Вказує папку для завантаження
 
 function getFtpConnection() {
 	    return ftp.create({
